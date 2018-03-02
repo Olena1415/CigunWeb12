@@ -17,14 +17,6 @@ public class ProductInMemoryDatabase implements ProductDatabase {
 
     @Override
     public Optional<Product> findByTitle(String title) {
-/*
-        for (Product product : products) {
-            if (product.getTitle().equals(title)) {
-                return Optional.of(product);
-            }
-        }
-        return Optional.empty();
-*/
         return products.stream()
                 .filter(p -> p.getTitle().equals(title))
                 .findFirst();
