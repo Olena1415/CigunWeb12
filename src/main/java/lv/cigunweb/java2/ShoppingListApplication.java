@@ -1,12 +1,12 @@
-package lv.javaguru.java2;
+package lv.cigunweb.java2;
 
-import lv.javaguru.java2.database.ProductDatabase;
-import lv.javaguru.java2.database.ProductInMemoryDatabase;
-import lv.javaguru.java2.views.AddProductView;
-import lv.javaguru.java2.views.ProgramExitView;
-import lv.javaguru.java2.views.RemoveProductView;
-import lv.javaguru.java2.views.ShowProductListView;
-import lv.javaguru.java2.views.View;
+import lv.cigunweb.java2.database.ProductDatabase;
+import lv.cigunweb.java2.database.ProductInMemoryDatabase;
+import lv.cigunweb.java2.views.AddProductView;
+import lv.cigunweb.java2.views.ProgramExitView;
+import lv.cigunweb.java2.views.RemoveProductView;
+import lv.cigunweb.java2.views.ShowProductListView;
+import lv.cigunweb.java2.views.View;
 
 import java.util.HashMap;
 import java.util.Map;
